@@ -1,10 +1,14 @@
 package hamsterofdark;
 
+import hamsterofdark.concreteComponents.LargePizza;
+
 public class Main {
 
 	public static void main(String[] args) {
-		System.out.println("decorator");
-		// TODO Auto-generated method stub
+		LargePizza lP = new LargePizza();
+		System.out.println(lP.getDescription());
+		System.out.println(lP.calculateCost());
+		
 
 	}
 
